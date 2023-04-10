@@ -1,0 +1,208 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+body{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	column-gap: 10px;
+	flex-wrap: wrap;
+}
+.container{
+	margin-top:30px;
+	margin-bottom: 100px;
+	display: flex;
+	jsutify-content: space-around;
+	flex-direction: row;
+	align-content: center;
+	gap: 10x;
+	width: 100%;
+	height: 400px;
+}
+.section{
+	width: 100%;
+	height: 600px;
+	margin-top:40px;
+	margin-bottom: 40px;
+	background: lightgrey;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+label{
+	margin-left: 600px;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	gap: 10px ;
+}
+.text{
+	text-align: center;
+	width: 300px;
+	height: 40px;
+	border: hidden;
+	border-radius: 10px;
+}
+.comment{
+	text-combine-upright: all;
+	text-align: center;
+	width: 300px;
+	height: 200px;
+	border: hidden;
+	border-top-left-radius: 10px;
+}
+footer{
+	margin-bottom: 20px;
+}
+.btn{
+	width: 300px;
+	text-align: center;
+	font-family: monospace;
+	height: 40px;
+	border: hidden;
+	border-radius: 10px;
+}
+.btn:hover{
+	background: aquamarine;
+	transition: 1s ease-in-out;
+}
+.card1{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	flex-direction: column;
+	height: 500px;
+	width: 500px;
+	border: hidden;
+	border-radius: 20px;
+	background: aqua;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	margin-left: 60px;
+	transition: width 1s,height 1s;
+}
+.card2>h2{
+	text-align: center;
+	color: darkgrey;
+}
+.card3>h2{
+	text-align: center;
+	color: black;
+}
+.card4>h2{
+	text-align: center;
+	color: antiquewhite;
+}
+.card1>h2{
+	text-align: center;
+	color: fuchsia;
+}
+.card1:hover{
+	width: 600px;
+	height: 400px;
+}
+.card1>h1{
+	font-size: 2.5vh;
+	color:darkred;
+	font-family: cursive;
+	letter-spacing: 2px;
+}
+.card2>h1{
+	font-size: 2.5vh;
+	color:blue;
+	font-family: sans-serif;
+	letter-spacing: 2px;
+}
+.card3>h1{
+	font-size: 2.5vh;
+	color:hotpink;
+	font-family: monospace;
+	letter-spacing: 2px;
+}
+.card4>h1{
+	font-size: 2.5vh;
+	color: whitesmoke;
+	font-family: monospace;
+	letter-spacing: 2px;
+}
+.card1>p{
+	font-family: serif;
+	color: indianred;
+	letter-spacing: 1px;
+}
+.card2>p{
+	font-family: serif;
+	color: white;
+	letter-spacing: 1px;
+}
+.card3>p{
+	font-family: serif;
+	color: darkgreen;
+	letter-spacing: 1px;
+}
+.card4>p{
+	font-family: serif;
+	color: black;
+	letter-spacing: 1px;
+}
+img{
+	width: 200px;
+	height: 150px;
+	align-items: center;
+}
+.card2{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	flex-direction: column;
+	height: 500px;
+	width: 500px;
+	border: hidden;
+	border-radius: 20px;
+	background: lightpink;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	transition: width 1s,height 1s;
+}
+.card2:hover{
+	width: 600px;
+	height: 400px;
+}
+.card3{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	flex-direction: column;
+	height: 500px;
+	width: 500px;
+	border: hidden;
+	border-radius: 20px;
+	background: lightgray;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	transition: width 1s,height 1s;
+}
+.card3:hover{
+	width: 600px;
+	height: 400px;
+}
+.card4{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	flex-direction: column;
+	height: 500px;
+	width: 500px;
+	border: hidden;
+	border-radius: 20px;
+	background: lightblue;
+	margin-bottom: 20px;
+	margin-right: 60px;
+	transition: width 1s,height 1s;
+}
+.card4:hover{
+	width: 600px;
+	height: 400px;
+}
